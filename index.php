@@ -7,11 +7,11 @@
   <body>
     <?php
 
-    //use Monolog\Logger;
-    //use Monolog\Handler\StreamHandler;
+    use Monolog\Logger;
+    use Monolog\Handler\StreamHandler;
 
     // create a log channel
-    //$log = new Logger('name');
+    $log = new Logger('name');
 
      ?>
     <?php echo 'Toto'; ?>
