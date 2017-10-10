@@ -5,16 +5,12 @@
     <link rel="stylesheet" href="/public/css/main.css" type="text/css" media="all">
   </head>
   <body>
+    <?php require __DIR__ . '/vendor/autoload.php'; ?>
     <?php
-
-    use Monolog\Logger;
-    use Monolog\Handler\StreamHandler;
-
-    // create a log channel
-    $log = new Logger('name');
-    var_dump($log);
-
+      $log = new Monolog\Logger('name');
+      var_dump($log);
      ?>
+
     <?php echo 'Toto'; ?>
     Plop
   </body>
