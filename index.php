@@ -5,6 +5,6 @@
     <link rel="stylesheet" href="/public/css/main.css" type="text/css" media="all">
   </head>
   <body>
-    <?php echo 'Plop'; ?>
+    <?php echo 'Toto'; ?>
   </body>
 </html>
