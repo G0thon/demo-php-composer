@@ -15,5 +15,6 @@
 
      ?>
     <?php echo 'Toto'; ?>
+    Plop
   </body>
 </html>
