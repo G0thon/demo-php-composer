@@ -12,6 +12,7 @@
 
     // create a log channel
     $log = new Logger('name');
+    var_dump($log);
 
      ?>
     <?php echo 'Toto'; ?>
