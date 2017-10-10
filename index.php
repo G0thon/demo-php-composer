@@ -5,6 +5,6 @@
     <link rel="stylesheet" href="/public/css/main.css" type="text/css" media="all">
   </head>
   <body>
-    <?php phpinfo() ?>
+    <?php echo 'Plop'; ?>
   </body>
 </html>
