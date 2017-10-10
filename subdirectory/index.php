@@ -8,7 +8,7 @@
       background-color: white;
       color: black;
     </style>
-    <?php require __DIR__ . '/vendor/autoload.php'; ?>
+    <?php //require __DIR__ . '/vendor/autoload.php'; ?>
     <?php
       $log = new Monolog\Logger('name');
       var_dump($log);
