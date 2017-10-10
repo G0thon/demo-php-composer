@@ -5,6 +5,15 @@
     <link rel="stylesheet" href="/public/css/main.css" type="text/css" media="all">
   </head>
   <body>
-    <?php echo 'Plop'; ?>
+    <?php
+
+    use Monolog\Logger;
+    use Monolog\Handler\StreamHandler;
+
+    // create a log channel
+    $log = new Logger('name');
+
+     ?>
+    <?php echo 'Toto'; ?>
   </body>
 </html>

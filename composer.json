@@ -2,7 +2,8 @@
     "name": "cc/test",
     "description": "test",
     "require": {
-        "shuber/curl": "~1.0"
+        "shuber/curl": "~1.0",
+        "monolog/monolog": "^1.23"
     },
     "authors": [
         {
